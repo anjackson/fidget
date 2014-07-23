@@ -5,14 +5,10 @@
       <version>7</version>
    </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>eu.scape-project.nanite</groupId>
-  <artifactId>nanite</artifactId>
-  <version>1.1.7-77-SNAPSHOT</version>
+  <groupId>net.anjackson.fidget</groupId>
+  <artifactId>fidget</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-   <organization>
-      <name>The Open Planets Foundation</name>
-      <url>http://www.openplanetsfoundation.org/</url>
-   </organization>
    <inceptionYear>2012</inceptionYear>
    <licenses>
       <license>
@@ -30,12 +26,12 @@
    </developers>
    <issueManagement>
       <system>GitHub Issues</system>
-      <url>https://github.com/openplanets/nanite/issues</url>
+      <url>https://github.com/anjackson/fidget/issues</url>
    </issueManagement>
    <scm>
-      <connection>scm:git:git@github.com:openplanets/nanite.git</connection>
-      <developerConnection>scm:git:git@github.com:openplanets/nanite.git</developerConnection>
-      <url>git@github.com:openplanets/nanite.git</url>
+      <connection>scm:git:git@github.com:anjackson/fidget.git</connection>
+      <developerConnection>scm:git:git@github.com:anjackson/fidget.git</developerConnection>
+      <url>git@github.com:anjackson/fidget.git</url>
    </scm>
    <properties>
       <jdk.version>1.6</jdk.version>
@@ -44,9 +40,8 @@
       <license.licenseName>apache_v2</license.licenseName>
    </properties>  
   <modules>
-  	<module>nanite-core</module>
-        <module>nanite-hadoop</module>
+  	<module>fidget-core</module>
+        <module>fidget-web</module>
   </modules>
-  <name>Nanite - a friendly swarm of format-identifying robots
-</name>
+  <name>Fidget</name>
 </project>
